@@ -1,0 +1,20 @@
+#gda_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 0px;
+    background-color: var(--dark-color);
+    color: var(--secondary-color);
+}
+
+a, a:focus, a:visited, a:hover {
+    color: var(--indigo-color);
+    font-weight: 700;
+}
