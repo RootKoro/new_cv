@@ -8,30 +8,32 @@ import "./styles/start/flexbox.css";
 
 import "./styles/style.css";
 
-import logo from "./assets/logo.png";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+
 
 import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Services from "./pages/Services";
+import Works from "./pages/Works";
+import Contact from "./pages/Contact";
 
 function App() {
-  const company_name = "Galsen Digital Agency"
-  const company_link = "https://www.galsendigitalagency.com"
-
   return (
     <div className="pb-5 mb-5 container column text-center">
-      <img width="250" src={logo} alt={company_name} title={company_name} />
-      <h1>
-        {company_name}
-      </h1>
-      <h2>
-        This is your react quick start
-      </h2>
-      <section>
-        <p>
-          We are a digital agency specializing in the creation of software. We support you during the digitalization process of your company.
-        </p>
-        <a href={company_link} target="blank"><button> Check our website </button></a>
-      </section>
       <Footer />
+
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/accueil" element={<Services />} />
+          <Route path="/projets" element={<Works />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
