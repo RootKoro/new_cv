@@ -5,9 +5,9 @@ const Navbar = () => {
         <nav className="navbar d-flex col-10">
             <div className="logo">RootKoro</div>
             <div className="row-right nav-links" id='nav-links'>
-                <Link to="/new_cv/accueil">accueil</Link>
-                <Link to="/new_cv/projets">projets</Link>
-                <Link to="/new_cv/contact">contact</Link>
+                <Link to="/accueil">accueil</Link>
+                <Link to="/projets">projets</Link>
+                <Link to="/contact">contact</Link>
             </div>
         </nav>
     );

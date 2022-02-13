@@ -31,11 +31,8 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/new_cv" element={<Home />} />
           <Route path="/accueil" element={<Services />} />
-          <Route path="/new_cv/accueil" element={<Services />} />
           <Route path="/projets" element={<Works />} />
-          <Route path="/new_cv/projets" element={<Works />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/new_cv/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>

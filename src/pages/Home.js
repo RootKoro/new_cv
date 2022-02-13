@@ -19,7 +19,7 @@ const Home = () => {
                     Hello you, f you're reading this, you maybe intend to read my online CV to know better about my developper skills or to get a better point of view about me.
                 </p>
                 <p>
-                    If that's the case, then <Link to="/new_cv/services">Click here !</Link>
+                    If that's the case, then <Link to="/services">Click here !</Link>
                 </p>
                 <p>
                     To get an overview the place I work, click on the link below
