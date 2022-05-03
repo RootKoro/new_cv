@@ -1,11 +1,8 @@
-import Navbar from "./Navbar";
-
 import satoru_gojo2 from "../assets/satoru_gojo2.jfif"
 
 const Contacts = () => {
     return ( 
         <main className="main-blocks">
-            <Navbar/>
             <section className="first-section d-flex">
                 <div className="col-2"></div>
                 <div className="col-4 cadre-img">

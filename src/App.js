@@ -17,9 +17,9 @@ import {
 
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import Services from "./pages/Services";
+/* import Services from "./pages/Services";
 import Works from "./pages/Works";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Contact"; */
 
 function App() {
   return (
@@ -29,13 +29,13 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/new_cv" element={<Home />} />
-          <Route path="/accueil" element={<Services />} />
+          {/* <Route exact path="/new_cv" element={<Home />} /> */}
+          {/* <Route path="/accueil" element={<Services />} />
           <Route path="/new_cv/accueil" element={<Services />} />
           <Route path="/projets" element={<Works />} />
           <Route path="/new_cv/projets" element={<Works />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/new_cv/contact" element={<Contact />} />
+          <Route path="/new_cv/contact" element={<Contact />} /> */}
         </Routes>
       </Router>
     </div>
