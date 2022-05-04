@@ -131,6 +131,10 @@ textarea{
     height: 50px;
 }
 
+.bye-txt {
+    text-align: left;
+}
+
 /* #submit-button:hover{
     box-shadow: var(--light-color) -2px -2px;
 }

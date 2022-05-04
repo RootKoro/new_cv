@@ -9,9 +9,12 @@ const Contacts = () => {
                     <img width="500" src={satoru_gojo2} alt="Bibo" title="Kashab"/>
                 </div>
                 <div className="col-1"></div>
-                <div className="col-4 column-reverse">
-                    <p>
-                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, enim distinctio a molestiae adipisci sapiente iusto animi modi numquam quas soluta porro vero provident eveniet nulla omnis officiis quisquam incidunt."
+                <div className="col-4">
+                    <p className="bye-txt">
+                        Ici se termine mon portefolio, j'espère que vous ne vous êtes pas ennuyé, car moi non. <br />
+                        Ci dessous vous trouverez les informations nécessaires pour me joindre. <br />
+                        Envoyer moi un message! Ou pourquoi pas un coup de fil? <br />
+                        ~~~~~~~~~~~~~😁~~~~~~~~~~~~~
                     </p>
                 </div>
             </section>
@@ -22,7 +25,7 @@ const Contacts = () => {
                         <a href="https://www.instagram.com/__mathieu__koro__/" target="_blank" rel="noopener noreferrer">Instagram</a><br /><br />
                         <a href="https://twitter.com/HackermanKoro" target="_blank" rel="noopener noreferrer">Twitter</a><br /><br />
                         mon @mail: <br />
-                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" rel="noopener noreferrer">cyrmatthieucmg@gmail.com</a><br /><br />
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" rel="noopener noreferrer">cyrmathieu.gda@gmail.com</a><br /><br />
                         mon numéro de téléphone : <br />
                         <button disabled="disabled" id="link-like-button">+33 06 44 94 73 87</button>
 
