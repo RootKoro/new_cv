@@ -5,10 +5,10 @@ const Contacts = () => {
         <main className="main-blocks">
             <section className="first-section d-flex">
                 <div className="col-2"></div>
-                <div className="col-4 cadre-img">
+                {/* <div className="col-4 cadre-img">
                     <img width="500" src={satoru_gojo2} alt="Bibo" title="Kashab"/>
-                </div>
-                <div className="col-1"></div>
+                </div> */}
+                <div className="col-2"></div>
                 <div className="col-4">
                     <p className="bye-txt">
                         Ici se termine mon portefolio, j'espère que vous ne vous êtes pas ennuyé, car moi non. <br />

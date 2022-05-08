@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+.container-junior {
+    width: 600px;
+    padding: 0;
+    margin: 0;
+}
+
 /* MAX 576 px */
 .col-12 {
     width: 100%;

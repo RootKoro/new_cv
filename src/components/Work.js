@@ -7,25 +7,30 @@ const projectElts = (element) => {
 
 const projectToHtml = (element) => {
     return (
-        <div className="container d-flex">
-            <div className="col-sm-1">
+            <div>
                 { element.map(e => projectElts(e)) }
             </div>
-            <div className="col-1"></div>
-        </div>
     );
 }
 
 const Work = () => {
-    const projects = [['name', 'description', 'links'], ['name', 'description', 'links']]
+    const projects = [
+        ['Code de Luhn', 'Permet de générer un code ou de vérifier si le code passé est un code de luhn. Projet réalisé en TypeScript', (<a href="https://github.com/RootKoro/Luhn">Git</a>)],
+        ['Match Sticks', 'Jeu des allumettes soit à deux, soit contre l\'ordinateur. Réalisé en Python', (<a href="https://github.com/RootKoro/matchStick">Git</a>)],
+        ['Firtree', 'Dessine un sapin en fonction de la taille passée (incomplet). Réalisé en TypeScript', (<a href="https://github.com/RootKoro/firtree">Git</a>)],
+        ['Buble Tea', 'Boutique en ligne de bubble tea (en cours). Réalisé en Laravel', (<a href="https://github.com/RootKoro/bubbleTea">Git</a>)],
+        ['IRC-like Client', 'Chat instantané dans le terminal (en cours). Réalisé en TypeScript', (<a href="https://github.com/RootKoro/IRC-client"></a>)],
+        ['RPG', 'RPG interactif qui vous plonge dans l\'univers très modifié de le l\'ETNA (en cours). Réalisé en C', (<a href="https://github.com/RootKoro/RPG">Git</a>)],
+        ['Raccourcies listes dynamiques', 'Des fonctions "templates" permettant la gestion de liste chainées. Réalisé pour les listes en C', (<a href="https://github.com/RootKoro/C_dynamic_list">Git</a>)]
+    ]
 
     return (
         <main className="main-blocks">
             <section className="first-section d-flex">
                 <div className="col-1"></div>
-                <div className="container">
+                <div className="container-junior">
                     <h3>Des projets sur lesquels j'ai eu à travailler</h3>
-                    <div className="d-flex">
+                    <div>
                         { projects.map(e => projectToHtml(e)) }
                     </div>
                     {/* <div className="h-150">
