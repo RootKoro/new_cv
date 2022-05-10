@@ -21,6 +21,8 @@
 
 .d-flex {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Flex Direction */

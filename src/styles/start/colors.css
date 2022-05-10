@@ -1,13 +1,13 @@
 html {
-    --primary-color: #442d71;
-    --secondary-color: #FAF9F0;
+    --primary-color: #DDA0FA/*#442d71 #2ce6b2 */;
+    --secondary-color: #FAF9F0/* FAF9F0 */;
     --third-color: #6C7596;
     --fourth-color: #091E05;
     --danger-color: #dc3545;
     --warning-color: #ffc107;
     --success-color: #198754;
     --info-color: #0dcaf0;
-    --light-color: #f8f9fa;
+    --light-color: #e3f6fc/*#198754  #49b6cc83*/;
     --dark-color: #212529;
 
     --grey-color: #6c757d;
@@ -20,8 +20,8 @@ html {
     --orange-color: #fd7e14;
     --purple-color: #533c80;
     --pink-color: #d63384;
-    --indigo-color: #601fec;
+    --indigo-color: #F8F2B2/* 601fec */;
 
-    --background-color: #49b6cc83;
-    --background-color2: #58ddf821;
+    --background-color: #D9D2D2;
+    --background-color2: #36273d70;
 }

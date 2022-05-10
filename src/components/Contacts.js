@@ -1,23 +1,9 @@
-import satoru_gojo2 from "../assets/satoru_gojo2.jfif"
+// import satoru_gojo2 from "../assets/satoru_gojo2.jfif"
 
 const Contacts = () => {
     return ( 
         <main className="main-blocks">
-            <section className="first-section d-flex">
-                <div className="col-2"></div>
-                {/* <div className="col-4 cadre-img">
-                    <img width="500" src={satoru_gojo2} alt="Bibo" title="Kashab"/>
-                </div> */}
-                <div className="col-2"></div>
-                <div className="col-4">
-                    <p className="bye-txt">
-                        Ici se termine mon portefolio, j'espère que vous ne vous êtes pas ennuyé, car moi non. <br />
-                        Ci dessous vous trouverez les informations nécessaires pour me joindre. <br />
-                        Envoyer moi un message! Ou pourquoi pas un coup de fil? <br />
-                        ~~~~~~~~~~~~~😁~~~~~~~~~~~~~
-                    </p>
-                </div>
-            </section>
+            <h1 className="space-top">Contact</h1>
             <section className="second-section d-flex">
                 <div className="socials col-4">
                     <h4>Contactez moi sur les réseaux sociaux</h4>
@@ -32,7 +18,6 @@ const Contacts = () => {
                     </div>
                 </div>
                 <div className="col-2">
-                    <div className="h-200"></div>
                     <p>
                         Ou alors
                     </p>
