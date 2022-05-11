@@ -141,14 +141,20 @@ textarea{
 
 .bordered:hover {
     /* background: var(--secondary-color); */
-    border: unset;
-    border-bottom: 10px var(--dark-color) double;
+    border-style: groove;
+    background-color: var(--background-color);
+    width: 50%;
+    /* border-bottom: 10px var(--dark-color) double; */
     transition: 100ms;
 }
 
 .space-top {
     padding-top: 100px;
     padding-bottom: 20px;
+}
+
+.prog-logo {
+    width: 48px;
 }
 
 /* #submit-button:hover{

@@ -1,3 +1,15 @@
+import C from "../assets/C.png"
+import CSS3 from "../assets/CSS3.png"
+import debian from "../assets/debian.png"
+import git from "../assets/git.png"
+import html from "../assets/html.png"
+import laravel from "../assets/laravel.png"
+import NodeJs from "../assets/NodeJs.png"
+import Python from "../assets/Python.png"
+import TypeScript from "../assets/TypeScript.png"
+import Ubuntu from "../assets/Ubuntu.png"
+import windows from "../assets/windows.png"
+
 const projectElts = (element) => {
     return (<p> {element} </p>);
 }
@@ -13,14 +25,12 @@ const projectToHtml = (element) => {
 const Work = () => {
     const projects = [
         [
-            <h4>Code de Luhn</h4>,
+            <h4>Luhn Code</h4>,
             <p>
-                Permet de générer un code ou de vérifier si le code passé est un code de luhn.
-                <ul>
-                    <li>TypeScript</li>
-                    <li>Windows</li>
-                    <li>Git</li>
-                </ul>
+                Luhn code generator and checker. <br />
+                <img src={windows} alt="windows" className="prog-logo" />
+                <img src={TypeScript} alt="typescript" className="prog-logo" />
+                <img src={git} alt="git" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/Luhn" target="_blank" rel="noreferrer">
                 https://github.com/RootKoro/Luhn
@@ -29,12 +39,10 @@ const Work = () => {
         [
             <h4>Match Sticks</h4>,
             <p>
-                Jeu des allumettes soit à deux, soit contre l'ordinateur.
-                <ul>
-                    <li>Python</li>
-                    <li>Ubuntu</li>
-                    <li>Git</li>
-                </ul>
+                MatchStick game you can play either against a the computer or against a physical opponent (not finished yet). <br />
+                <img src={Python} alt="python" className="prog-logo" />
+                <img src={Ubuntu} alt="ubuntu" className="prog-logo" />
+                <img src={git} alt="git" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/matchStick" target="_blank" rel="noreferrer">
                 https://github.com/RootKoro/matchStick
@@ -43,12 +51,10 @@ const Work = () => {
         [
             <h4>Firtree</h4>,
             <p>
-                Dessine un sapin en fonction de la taille passée (incomplet).
-                <ul>
-                    <li>TypeScript</li>
-                    <li>Debian</li>
-                    <li>Git</li>
-                </ul>
+                draw a firtree with a given size (incomplet). <br />
+                <img src={TypeScript} alt="typescript" className="prog-logo" />
+                <img src={git} alt="git" className="prog-logo" />
+                <img src={debian} alt="debian" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/firtree" target="_blank" rel="noreferrer">
                 https://github.com/RootKoro/firtree
@@ -57,17 +63,14 @@ const Work = () => {
         [
             <h4>Buble Tea</h4>,
             <p>
-                Boutique en ligne de bubble tea (en cours).
-                <ul>
-                    <li>Laravel</li>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>Windows</li>
-                    <li>Ubuntu</li>
-                    <li>Debian</li>
-                    <li>Git</li>
-                    <li>Scrum</li>
-                </ul>
+                Bubble tea online shop (not finished yet). <br />
+                <img src={laravel} alt="laravel" className="prog-logo" />
+                <img src={html} alt="html5" className="prog-logo" />
+                <img src={Ubuntu} alt="ubuntu" className="prog-logo" />
+                <img src={CSS3} alt="css3" className="prog-logo" />
+                <img src={debian} alt="debian" className="prog-logo" />
+                <img src={windows} alt="windows" className="prog-logo" />
+                <img src={git} alt="git" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/bubbleTea" target="_blank" rel="noreferrer">
                 https://github.com/RootKoro/bubbleTea
@@ -76,17 +79,13 @@ const Work = () => {
         [
             <h4>IRC-like Client</h4>,
             <p>
-                Chat instantané dans le terminal (en cours).
-                <ul>
-                    <li>TypeScript</li>
-                    <li>NodeJs</li>
-                    <li>Windows</li>
-                    <li>Ubuntu</li>
-                    <li>Debian</li>
-                    <li>MacOS</li>
-                    <li>Git</li>
-                    <li>Scrum</li>
-                </ul>
+                A chat in the commande line (not finished yet). <br />
+                <img src={TypeScript} alt="typescript" className="prog-logo" />
+                <img src={windows} alt="windows" className="prog-logo" />
+                <img src={NodeJs} alt="node.js" className="prog-logo" />
+                <img src={Ubuntu} alt="ubuntu" className="prog-logo" />
+                <img src={git} alt="git" className="prog-logo" />
+                <img src={debian} alt="debian" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/IRC-client" target="_blank" rel="noreferrer">
                 https://github.com/RootKoro/IRC-client
@@ -95,28 +94,24 @@ const Work = () => {
         [
             <h4>RPG</h4>,
             <p>
-                RPG interactif qui vous plonge dans l'univers très modifié de le l'ETNA (en cours).
-                <ul>
-                    <li>C</li>
-                    <li>Debian</li>
-                    <li>Ubuntu</li>
-                    <li>Windows</li>
-                    <li>Git</li>
-                </ul>
+                RPG in the (modified) word of ETNA (not finished yet). <br />
+                <img src={C} alt="git" className="prog-logo" />
+                <img src={debian} alt="git" className="prog-logo" />
+                <img src={windows} alt="git" className="prog-logo" />
+                <img src={Ubuntu} alt="git" className="prog-logo" />
+                <img src={git} alt="git" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/RPG" target="_blank" rel="noreferrer">
                 https://github.com/RootKoro/RPG
             </a>
         ],
         [
-            <h4>Raccourcies listes dynamiques</h4>,
+            <h4>Dynamic list's functions</h4>,
             <p>
-                Des fonctions "templates" permettant la gestion de liste chainées.
-                <ul>
-                    <li>C</li>
-                    <li>Windows</li>
-                    <li>Git</li>
-                </ul>
+                Some template functions for dynamic lists in C. <br />
+                <img src={C} alt="git" className="prog-logo" />
+                <img src={windows} alt="git" className="prog-logo" />
+                <img src={git} alt="git" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/C_dynamic_list" target="_blank" rel="noreferrer">
                 https://github.com/RootKoro/C_dynamic_list
