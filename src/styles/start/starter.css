@@ -17,6 +17,7 @@ body {
   min-height: 100vh;
   /* background-color: var(--light-color) ; */
   background: url('../../assets/bg1.webp') 0 0 fixed no-repeat;
+  background-size: cover;
   color: var(--light-color);
   overflow-x: hidden;
   line-height: 1.5;

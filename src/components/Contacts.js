@@ -2,7 +2,7 @@
 
 const Contacts = () => {
     return ( 
-        <main className="main-blocks">
+        <main className="main-blocks" id="contact">
             <h1 className="space-top">Contact</h1>
             <section className="second-section d-flex">
                 <div className="socials col-4">
@@ -20,12 +20,7 @@ const Contacts = () => {
 
                     </div>
                 </div>
-                <div className="col-2">
-                    <p>
-                        Or
-                    </p>
-                </div>
-                <div className="col-4 message">
+                <div className="message">
                     <h4>I Make it easy, text me here!</h4>
                     <fieldset>
                         <form>

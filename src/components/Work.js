@@ -2,6 +2,7 @@ import C from "../assets/C.png"
 import CSS3 from "../assets/CSS3.png"
 import debian from "../assets/debian.png"
 import git from "../assets/git.png"
+import github from "../assets/github.png"
 import html from "../assets/html.png"
 import laravel from "../assets/laravel.png"
 import NodeJs from "../assets/NodeJs.png"
@@ -33,7 +34,8 @@ const Work = () => {
                 <img src={git} alt="git" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/Luhn" target="_blank" rel="noreferrer">
-                https://github.com/RootKoro/Luhn
+                click here
+                <img src={github} alt="git" className="prog-logo" />
             </a>
         ],
         [
@@ -44,8 +46,9 @@ const Work = () => {
                 <img src={Ubuntu} alt="ubuntu" className="prog-logo" />
                 <img src={git} alt="git" className="prog-logo" />
             </p>,
-            <a href="https://github.com/RootKoro/matchStick" target="_blank" rel="noreferrer">
-                https://github.com/RootKoro/matchStick
+                <a href="https://github.com/RootKoro/matchStick" target="_blank" rel="noreferrer">
+                click here
+                <img src={github} alt="git" className="prog-logo" />
             </a>
         ],
         [
@@ -57,7 +60,8 @@ const Work = () => {
                 <img src={debian} alt="debian" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/firtree" target="_blank" rel="noreferrer">
-                https://github.com/RootKoro/firtree
+                click here
+                <img src={github} alt="git" className="prog-logo" />
             </a>
         ],
         [
@@ -73,7 +77,8 @@ const Work = () => {
                 <img src={git} alt="git" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/bubbleTea" target="_blank" rel="noreferrer">
-                https://github.com/RootKoro/bubbleTea
+                click here
+                <img src={github} alt="git" className="prog-logo" />
             </a>
         ],
         [
@@ -88,7 +93,8 @@ const Work = () => {
                 <img src={debian} alt="debian" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/IRC-client" target="_blank" rel="noreferrer">
-                https://github.com/RootKoro/IRC-client
+                click here
+                <img src={github} alt="git" className="prog-logo" />
             </a>
         ],
         [
@@ -102,7 +108,8 @@ const Work = () => {
                 <img src={git} alt="git" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/RPG" target="_blank" rel="noreferrer">
-                https://github.com/RootKoro/RPG
+                click here
+                <img src={github} alt="git" className="prog-logo" />
             </a>
         ],
         [
@@ -114,13 +121,14 @@ const Work = () => {
                 <img src={git} alt="git" className="prog-logo" />
             </p>,
             <a href="https://github.com/RootKoro/C_dynamic_list" target="_blank" rel="noreferrer">
-                https://github.com/RootKoro/C_dynamic_list
+                click here
+                <img src={github} alt="git" className="prog-logo" />
             </a>
         ]
     ]
 
     return (
-        <main className="main-blocks">
+        <main className="main-blocks" id="works">
             <section className="first-section">
                 <div className="container">
                     <h3>My projects</h3><br />

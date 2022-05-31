@@ -10,6 +10,8 @@
     font-size: large;
 }
 
+/* .navbar: */
+
 section {
     padding-top: 1%;
     padding-bottom: 1%;
@@ -47,9 +49,9 @@ section {
     margin-top: 50px;
 } */
 
-/* .main-first-section{
-    padding-top: 15px;
-} */
+.main-first-section{
+    padding-top: 50PX;
+}
 
 /* .main-second-section{
     padding-top: 5%;
@@ -89,16 +91,15 @@ section {
 }
 
 fieldset{
-    width: 450px;
+    width: 300px;
     padding: 5%;
-    margin-left: 50px;
     background-color: var(--dark-color);
 }
 
 input,
 textarea{
     margin-bottom: 6%;
-    width: 350px;
+    width: 250px;
     border-radius: 10px;
 }
 
